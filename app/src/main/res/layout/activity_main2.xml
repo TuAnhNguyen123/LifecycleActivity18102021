@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".MainActivity2"
     android:gravity="center"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
     <TextView
         android:layout_marginBottom="10dp"
+        android:textSize="40sp"
+        android:textColor="#03A9F4"
+        android:text="Main 2 Activity"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MainActivity"
-        android:textColor="#f20"
-        android:textSize="40sp"/>
+        android:layout_height="wrap_content"/>
 
     <Button
-        android:text="buttonNavigateScreen2"
+        android:id="@+id/buttonNavigateScreen3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonNavigateScreen2"/>
+        android:text="Navigate Screen 3" />
+
 </LinearLayout>

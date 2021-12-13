@@ -4,20 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".MainActivity3"
     android:gravity="center"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
     <TextView
         android:layout_marginBottom="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MainActivity"
-        android:textColor="#f20"
+        android:text="MainActivity3 "
+        android:textColor="#FF9800"
         android:textSize="40sp"/>
 
     <Button
-        android:text="buttonNavigateScreen2"
+        android:text="Launch mode: SingleTop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonNavigateScreen2"/>
+        android:id="@+id/buttonLaunchModeSingleTop"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Launch mode: SingleTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLaunchModeSingleTask"/>
 </LinearLayout>
